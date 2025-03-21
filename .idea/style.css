@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0c78e2;
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height:380px;
+    border-top: 1px solid raba(255,255,255,0.5);
+    border-left: 1px solid raba(255,255,255,0.5);
+    border-right: 1px solid raba(255,255,255,0.2);
+    border-bottom: 1px solid raba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+}
+.box .input-box{
+
+}
